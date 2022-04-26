@@ -2,13 +2,25 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fitimdiaapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FitImdiaApp">
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".view.RegistrationScreen"
+            android:exported="true" />
+        <activity
+            android:name=".view.OtpScreen"
+            android:exported="true" />
+        <activity
+            android:name=".view.PhoneNumberScreen"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />

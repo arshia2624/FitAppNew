@@ -2,7 +2,9 @@ package com.example.fitimdiaapp.api;
 
 public interface APITags {
 
-    String feed = "v1/api.json?";
+    String generateotp = "v1/user/generate-otp";
+    String verifyotp = "v1/user/verify-otp";
+
 
 
 }

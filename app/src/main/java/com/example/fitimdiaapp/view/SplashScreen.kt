@@ -9,7 +9,7 @@ import com.example.fitimdiaapp.MainActivity
 import com.example.fitimdiaapp.R
 
 class SplashScreen : AppCompatActivity() {
-    private val SPLASH_TIME_OUT = 1000
+    private val SPLASH_TIME_OUT = 3000
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,12 +21,13 @@ class SplashScreen : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed({
             gotoNextScreen()
             // Your Code
-        }, 3000)
+        }, SPLASH_TIME_OUT.toLong())
     }
+
 
     private fun gotoNextScreen() {
         run {
-            val intent: Intent = Intent(this, MainActivity::class.java)
+            val intent: Intent = Intent(this, PhoneNumberScreen::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NO_ANIMATION
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
             startActivity(intent)

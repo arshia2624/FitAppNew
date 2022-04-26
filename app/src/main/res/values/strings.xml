@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">FitImdiaApp</string>
+    <string name="contactmaintext">For the busy ones,  \nworkout from anywhere,anytime</string>
+    <string name="enterur">Enter your mobile number</string>
+    <string name="waiting">Waiting for OTP to verify Your mobile number</string>
+    <string name="dont">Don\'t receive your OTP</string>
+    <string name="resend">RESEND</string>
+    <string name="submit">SUBMIT</string>
+    <string name="join">JOIN</string>
+
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="location">Location</string>
+    <string name="birthdate">Birthdate</string>
 </resources>
